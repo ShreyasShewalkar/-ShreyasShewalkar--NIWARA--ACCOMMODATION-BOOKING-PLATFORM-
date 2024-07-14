@@ -1,0 +1,99 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+.container{
+    flex:1;
+}
+.navbar{
+    height:5rem;
+}
+.fa-regular{
+    color:red;
+    font-size: 2rem;
+}
+.nav-link{
+    color: #222222;
+}
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+.f-info{
+    background-color: #ebebeb;
+    display: flex;
+    height:8rem;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.f-info-socials{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.f-info-socials i{
+    margin-right: 1rem;
+}
+.f{
+    height:33%;
+    
+}
+.listing-card{
+    border: none;
+    margin-bottom: 2rem;
+  
+}
+.card img{
+    border-radius: 1rem;
+  
+}
+.links{
+    text-decoration: none;
+}
+
+.card img:hover{
+    opacity: 0.5;
+    background-color: white;
+}
+.btns-edit-delete{
+    display: flex;
+}
+.btns-edit-delete button{
+    margin-left: 2rem;
+}
+.show-card{
+    margin-top:1rem;
+}
+#listing-details{
+    margin-top: 1rem;
+}
+.error-pop{
+    margin-top: 1rem;
+}
+
+
+.tax-info{
+    display: none;
+  }
+  .taxes{
+    display: flex;
+
+  }
+
+.toggle-switch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 15rem;
+    height: 2.5rem;
+  border-radius: 10px;
+}
+
+
